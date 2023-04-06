@@ -9,7 +9,7 @@ class ArenaScene extends Phaser.Scene {
     }
     create(){
         
-        this.socket = io();
+        this.socket = io('https://jeremyhu134.github.io/tester123/');
         //Variables to reference the scene globally
         gameState.currentScene = "ArenaScene";
         gameState.globalScene = this;
